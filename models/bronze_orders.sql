@@ -1,1 +1,1 @@
-SELECT * FROM retail.raw.orders;
+SELECT * FROM {{source('landing','orders')}}

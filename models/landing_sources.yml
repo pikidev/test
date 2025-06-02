@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: landing
+    database: retail  
+    schema: raw  
+    tables:
+      - name: orders
+      - name: products
+      - name: reviews
+      - name: users
+
+      
+
+
