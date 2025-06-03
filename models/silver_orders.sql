@@ -4,6 +4,5 @@ SELECT id,
         product_id,
         quantity,
         unit_price,
-        quantity,
         quantity*unit_price as order_total
  from {{ref("bronze_orders")}}
