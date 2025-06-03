@@ -5,7 +5,7 @@ sources:
     database: retail  
     schema: raw  
     tables:
-      - name: orders
+      - name: orders 
       - name: products
       - name: reviews
       - name: users
