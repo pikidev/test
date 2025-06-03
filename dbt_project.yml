@@ -46,4 +46,8 @@ models:
     gold:
       materialized: table
       +schema: gold
+
+seeds:
+  dbt_snowflake_project:
+    +schema: bronze
  
